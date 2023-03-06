@@ -1,0 +1,12 @@
+@charset "UTF-8"
+
+:root{
+    --color1:lightcoral;
+    --color2: DimGrey;
+    --color3: Gainsboro;
+}
+
+body{
+    background-color: lightcoral;
+    background-color: var(--color1)
+}
