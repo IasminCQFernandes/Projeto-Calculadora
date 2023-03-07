@@ -1,12 +1,67 @@
 @charset "UTF-8"
-
-:root{
-    --color1:lightcoral;
-    --color2: DimGrey;
-    --color3: Gainsboro;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body{
     background-color: lightcoral;
-    background-color: var(--color1)
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.192);
+    box-shadow: 2px 2px 3px rgb(219, 83, 83);
+    border-radius: 10px;
+
+}
+#container h1{
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(247, 102, 86);
+    text-align: center;
+    padding: 10px;
+}
+#container p, button{
+    margin-left: 20px;
+    padding: 5px;
+}
+form input, select{
+    border-color: brown;
+    width: 150px;
+    padding: 3px;
+}
+input#bill{
+    width: 130px;
+}
+select{
+    width: 160px;
+}
+#espaco{
+    margin-left: 10px;
+}
+form input:hover{
+    background-color: rgba(165, 42, 42, 0.274);
+}
+form select:hover{
+    background-color: rgba(165, 42, 42, 0.274);
+}
+button{
+    color:white;
+    text-transform: uppercase;
+    font-weight:bolder;
+    display: block;
+    background-color: brown;
+    padding: 10px;
+    margin: 30px auto;
+    width: 150px;
+
+ /*bordas*/
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to right, rgb(247, 102, 86), rgb(230, 34, 13));
+}
+button:hover{
+    background-color: lightcoral;
+    color: brown;
 }
